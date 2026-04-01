@@ -7,7 +7,7 @@
 [![Framework](https://img.shields.io/badge/Framework-SCOUT-blue?style=for-the-badge)]()
 [![Platform](https://img.shields.io/badge/Claude_Code_%26_Copilot-Ready-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
-
+[![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
 **Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
 
 Give your AI assistant the ability to deep-research any ISV, partner, or competitor by scanning their public website and producing a structured customer list, company profile, and an executive-ready 1-slide PowerPoint summary.
