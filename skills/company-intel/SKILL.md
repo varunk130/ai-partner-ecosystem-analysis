@@ -37,7 +37,7 @@ If only a company name is provided, search the web to find their official websit
 | **C**apture | Extract customer logos, names, testimonials, case studies, metrics | Structured customer list |
 | **O**utline | Summarize the company's positioning, value prop, and key claims | Company profile |
 | **U**ncover | Identify notable patterns: customer segments, industries, company sizes | Customer segmentation |
-| **T**abulate | Compile everything into a clean slide using ppt-deck-generator | 1-slide PPTX |
+| **T**abulate | Compile everything into a polished 2-slide deck using ppt-deck-generator | 2-slide PPTX |
 
 ## Process
 
@@ -100,57 +100,71 @@ Look at the customer list and identify patterns:
 - **Customer count tiers:** How many logos vs. case studies vs. testimonials?
 - **Notable names:** Any Fortune 500, well-known brands, or surprising customers?
 
-### Step 5: TABULATE - Generate the 1-Slide PPTX
+### Step 5: TABULATE - Generate 2-Slide PPTX
 
-Use the `ppt-deck-generator` skill or `python-pptx` to create a single polished slide.
+Use the `ppt-deck-generator` skill or `python-pptx` to create a polished 2-slide executive deck.
 
-**Slide Layout:**
+**Slide 1: Company Overview and Positioning**
 
 ```
 +------------------------------------------------------------------+
-|  [COMPANY NAME]  Company Intelligence Brief                       |
-|  [Tagline / What they do - 1 line]              [Date]           |
+|  [COMPANY NAME]  Company Intelligence Brief          [Date]       |
 +------------------------------------------------------------------+
-|                           |                                       |
-|   COMPANY OVERVIEW        |   FEATURED CUSTOMERS                  |
-|                           |                                       |
-|   What They Do:           |   [Logo grid or list of customer      |
-|   [1-2 sentences]         |    names organized by tier:]          |
-|                           |                                       |
-|   Key Metrics:            |   Case Studies:                       |
-|   - [Metric 1]            |   - Customer A (quote snippet)        |
-|   - [Metric 2]            |   - Customer B (quote snippet)        |
-|   - [Metric 3]            |   Logos Featured:                     |
-|                           |   - Customer C, D, E, F, G, H...     |
-|   Target Audience:        |                                       |
-|   [Segment description]   |   Notable Quote:                      |
-|                           |   "[Best quote]" - Person, Title      |
+|  [300K+]    [150+]     [140M]     [26]      [16]     [SOC 2]    |
+|  GTM Teams  Providers  AI Runs    Customers  Cases   Compliance  |
 +------------------------------------------------------------------+
-|  Customer Segments: [Tech] [Finance] [Enterprise] [Mid-Market]   |
+|                            |                                      |
+|  WHAT THEY DO              |  POSITIONING                         |
+|  [Description paragraph]   |  [Tagline and value prop]            |
+|                            |                                      |
+|  KEY CAPABILITIES          |  TARGET BUYERS                       |
+|  - Capability 1            |  Role 1 - Context                    |
+|  - Capability 2            |  Role 2 - Context                    |
+|  - Capability 3            |  Role 3 - Context                    |
++------------------------------------------------------------------+
+|  "[Best quote]" - Person, Title           [Segment] [Segment]    |
++------------------------------------------------------------------+
+```
+
+**Slide 2: Customer Evidence Map**
+
+```
++------------------------------------------------------------------+
+|  [COMPANY NAME]  Customer Evidence Map                [Date]      |
+|  26 CUSTOMERS  |  16 CASE STUDIES  |  10 LOGO FEATURES           |
++------------------------------------------------------------------+
+|  Customer      Key Result           Contact                       |
+|  -------       ----------           -------                       |
+|  [8 case studies with results       [8 case studies with results  |
+|   and contact names per column]      and contact names per column]|
+|                                                                   |
++------------------------------------------------------------------+
+|  ALSO FEATURED (LOGOS AND PARTNERS)                               |
+|  [Logo 1] [Logo 2] [Logo 3] [Logo 4] [Logo 5] ... [Logo 10]    |
 +------------------------------------------------------------------+
 ```
 
 **Slide Design Rules:**
 - Use `ppt-deck-generator` color palette (navy dark_bg header, Microsoft blue accent, teal highlights)
-- Segoe UI font family throughout
-- Company name in large white text on navy header bar
-- Left column (40%): Company overview, metrics, audience
-- Right column (60%): Customer list organized by evidence strength
-- Bottom strip: Customer segment tags with colored pills
-- If a great testimonial quote exists, feature it prominently
-- Maximum 40 words in the overview section; let the customer names do the talking
+- Segoe UI font family throughout, minimum 9pt for any text
+- High contrast: dark text on white/light backgrounds, white text on navy only
+- No dark text on dark backgrounds
+- Slide 1 left column (45%): Company overview and capabilities
+- Slide 1 right column (55%): Positioning and target buyers
+- Slide 2: Two-column customer grid with colored dots, key results in blue, contact names in gray
+- Bottom strips on both slides: navy background with white/teal text only
 
 ## Output
 
 Save to:
 - `outputs/company-intel-[company-name]-[YYYY-MM-DD].md` (structured research notes)
-- `outputs/company-intel-[company-name]-[YYYY-MM-DD].pptx` (1-slide summary)
+- `outputs/company-intel-[company-name]-[YYYY-MM-DD].pptx` (2-slide exec deck)
 
 ### Deliverables:
 1. **Customer Extraction Table**: Full list of identified customers with evidence type and quotes
 2. **Company Profile**: Positioning, metrics, target audience, and key claims
 3. **Customer Pattern Analysis**: Segmentation by size, industry, and use case
-4. **1-Slide PPTX**: Executive-ready company intelligence slide
+4. **2-Slide PPTX**: Slide 1 = Company overview and positioning, Slide 2 = Full customer evidence map
 
 ## Chain Connections
 - **Feeds into**: `battle-scanner` (competitive customer overlap analysis), `partner-blueprint` (partner customer mapping), `gtm-exec-plan` (competitive landscape section)
