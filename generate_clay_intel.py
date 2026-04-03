@@ -64,7 +64,7 @@ def slide_1(prs):
     tx(sl, Inches(8.5), Inches(0.18), Inches(4.5), Inches(0.3),
        "clay.com", sz=12, c=WHITE, al=PP_ALIGN.RIGHT)
     tx(sl, Inches(8.5), Inches(0.52), Inches(4.5), Inches(0.3),
-       "SCOUT Framework  |  April 2026", sz=9, c=RGBColor(0x90, 0xA0, 0xB8), al=PP_ALIGN.RIGHT)
+       "AI Partner Ecosystem Analysis  |  April 2026", sz=9, c=RGBColor(0x90, 0xA0, 0xB8), al=PP_ALIGN.RIGHT)
 
     # === METRICS ROW (5 cards, wider, spaced) ===
     metrics = [
@@ -157,7 +157,7 @@ def slide_1(prs):
 
     # Footer
     tx(sl, Inches(0.8), Inches(6.85), Inches(12), Inches(0.2),
-       "Source: clay.com  |  SCOUT Framework  |  ISV Intel", sz=8, c=MGRAY)
+       "Source: clay.com  |  AI Partner Ecosystem Analysis", sz=8, c=MGRAY)
 
 
 def slide_2(prs):
@@ -262,7 +262,7 @@ def slide_2(prs):
            name, sz=9, c=WHITE, bold=True, al=PP_ALIGN.CENTER)
 
     tx(sl, Inches(0.8), Inches(6.72), Inches(12), Inches(0.2),
-       "Source: clay.com  |  SCOUT Framework  |  ISV Intel  |  April 2026",
+       "Source: clay.com  |  AI Partner Ecosystem Analysis  |  April 2026",
        sz=8, c=RGBColor(0x90, 0xA0, 0xB8))
 
 

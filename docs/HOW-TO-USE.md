@@ -1,8 +1,8 @@
 <div align="center">
 
-# How to Use ISV Intel
+# How to Use AI Partner Ecosystem Analysis
 
-A step-by-step guide for researching any company with the SCOUT skill
+A step-by-step guide for researching any company with the skill
 
 </div>
 
@@ -23,14 +23,14 @@ A step-by-step guide for researching any company with the SCOUT skill
 
 **Claude Code:**
 ```bash
-git clone https://github.com/varunk130/isv-intel.git
-cp -r isv-intel/skills/company-intel ~/.claude/skills/
+git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
+cp -r ai-partner-ecosystem-analysis/skills/company-intel ~/.claude/skills/
 ```
 
 **GitHub Copilot:**
 ```bash
-git clone https://github.com/varunk130/isv-intel.git
-cp -r isv-intel/skills/company-intel .github/skills/
+git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
+cp -r ai-partner-ecosystem-analysis/skills/company-intel .github/skills/
 ```
 
 Verify the file exists at `company-intel/SKILL.md` in your skills directory.
@@ -185,7 +185,7 @@ Yes. The skill works on any company with a public website. Results vary based on
 
 <div align="center">
 
-**Need help?** Open an issue on the [ISV Intel repository](https://github.com/varunk130/isv-intel/issues).
+**Need help?** Open an issue on the [AI Partner Ecosystem Analysis repository](https://github.com/varunk130/ai-partner-ecosystem-analysis/issues).
 
 **Built by Varun Kulkarni** | Powered by Claude Code & GitHub Copilot
 

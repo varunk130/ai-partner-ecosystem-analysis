@@ -1,10 +1,9 @@
 <div align="center">
 
-# 🔍 ISV Intel
+# 🔍 AI Partner Ecosystem Analysis
 
 ### AI-Powered Company Research for Claude Code & GitHub Copilot
 
-[![Framework](https://img.shields.io/badge/Framework-SCOUT-blue?style=for-the-badge)]()
 [![Platform](https://img.shields.io/badge/Claude_Code_%26_Copilot-Ready-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
@@ -18,7 +17,7 @@ Give your AI assistant the ability to deep-research any ISV, partner, or competi
 
 ## What It Does
 
-ISV Intel is a Claude Code / GitHub Copilot skill that turns a company name or URL into actionable intelligence. Point it at any company's website and it will:
+AI Partner Ecosystem Analysis is a Claude Code / GitHub Copilot skill that turns a company name or URL into actionable intelligence. Point it at any company's website and it will:
 
 - **Find their customers** by scanning logo bars, case studies, and testimonials
 - **Extract key metrics** like user counts, revenue claims, and growth stats
@@ -35,14 +34,14 @@ ISV Intel is a Claude Code / GitHub Copilot skill that turns a company name or U
 
 **Claude Code:**
 ```bash
-git clone https://github.com/varunk130/isv-intel.git
-cp -r isv-intel/skills/company-intel ~/.claude/skills/
+git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
+cp -r ai-partner-ecosystem-analysis/skills/company-intel ~/.claude/skills/
 ```
 
 **GitHub Copilot:**
 ```bash
-git clone https://github.com/varunk130/isv-intel.git
-cp -r isv-intel/skills/company-intel .github/skills/
+git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
+cp -r ai-partner-ecosystem-analysis/skills/company-intel .github/skills/
 ```
 
 ### Step 2: Run It
