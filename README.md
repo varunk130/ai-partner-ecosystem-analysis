@@ -2,7 +2,7 @@
 
 # 🔍 AI Partner Ecosystem Analysis
 
-### AI-Powered Company Research for Claude Code & GitHub Copilot
+### AI-Powered Company & Partner Research for Claude Code & GitHub Copilot
 
 [![Platform](https://img.shields.io/badge/Claude_Code_%26_Copilot-Ready-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
