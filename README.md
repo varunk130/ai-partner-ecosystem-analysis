@@ -55,7 +55,7 @@ Open your AI assistant and provide a company name or URL. That's it. The skill h
 |-------------|-------------|
 | `Run company-intel on Tavily` | Fetches tavily.com, extracts customers, builds a slide |
 | `Research https://www.clay.com` | Scans Clay's site for customer logos, case studies, metrics |
-| `Company intel on [any ISV name]` | Searches for the company, finds their site, runs full SCOUT |
+| `Company intel on [any ISV name]` | Searches for the company, finds their site, runs the full [SCOUT framework](#scout-framework) |
 | `Who are Company X's customers?` | Extracts and categorizes all featured customers |
 | `Build me an intel slide on [partner name]` | Full research + 1-slide PPTX output |
 
