@@ -5,14 +5,59 @@
 ### AI-Powered Company & Partner Research for Claude Code & GitHub Copilot
 
 [![Platform](https://img.shields.io/badge/Claude_Code_%26_Copilot-Ready-green?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
+[![Output](https://img.shields.io/badge/Output-1--slide_PPTX-orange?style=for-the-badge)]()
 
 **Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
 
 Give your AI assistant the ability to deep-research any ISV, partner, or competitor by scanning their public website and producing a structured customer list, company profile, and an executive-ready 1-slide PowerPoint summary.
 
 </div>
+
+---
+
+## 🔭 How It Works
+
+```mermaid
+flowchart LR
+    A["🧑‍💼 You say:<br/><i>Run company-intel<br/>on Tavily</i>"] --> B["🌐 SCOUT scan<br/>tavily.com"]
+    B --> C1["🏢 Customers<br/>logo bars · case studies"]
+    B --> C2["📊 Metrics<br/>user counts · ARR · growth"]
+    B --> C3["💬 Testimonials<br/>quote · person · role"]
+    B --> C4["🎯 Positioning<br/>tagline · value prop · ICP"]
+    C1 --> D["🧠 Pattern analysis<br/>by size · industry · segment"]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    D --> E["📑 1-slide PPTX<br/>exec-ready briefing"]
+
+    classDef step fill:#1a73e8,color:#fff,stroke:#1558b0,stroke-width:2px,rx:6,ry:6
+    classDef io fill:#f8f9fa,color:#202124,stroke:#dadce0,stroke-width:1px,rx:6,ry:6
+    classDef output fill:#e6f4ea,color:#0d652d,stroke:#0d652d,stroke-width:2px,rx:6,ry:6
+    class B,D step
+    class C1,C2,C3,C4 io
+    class A,E output
+```
+
+---
+
+## ⚡ Quickstart
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
+
+# 2. Install the company-intel skill (Claude Code)
+cp -r ai-partner-ecosystem-analysis/skills/company-intel ~/.claude/skills/
+
+# 3. In Claude Code, ask:
+#      "Run company-intel on Tavily"
+#      "Research https://www.clay.com"
+#      "Who are Notion's enterprise customers?"
+```
+
+For **GitHub Copilot**: copy `skills/company-intel` into `.github/skills/` in your repo and invoke via natural language.
 
 ---
 
