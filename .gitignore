@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data outputs (don't commit generated research artifacts)
+data/raw/
+data/interim/
+data/processed/
+*.csv.gz
+*.parquet
+clay_intel_output/
+intel-cache/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & secrets
+*.log
+.env.local
+.env.*.local
+secrets.toml
