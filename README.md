@@ -4,10 +4,10 @@
 
 ### AI-Powered Company & Partner Research for Claude Code & GitHub Copilot
 
-[![Platform](https://img.shields.io/badge/Claude_Code_%26_Copilot-Ready-green?style=for-the-badge)]()
+[![Platform](https://img.shields.io/badge/Claude_Code_%26_Copilot-Ready-green?style=for-the-badge)](#-quickstart)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
-[![Output](https://img.shields.io/badge/Output-1--slide_PPTX-orange?style=for-the-badge)]()
+[![Output](https://img.shields.io/badge/Output-1--slide_PPTX-orange?style=for-the-badge)](#slide-output-format)
 
 **Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
 
@@ -119,7 +119,7 @@ The skill produces two deliverables:
 
 The skill follows a 5-step research process:
 
-```
+```text
   S ──── C ──── O ──── U ──── T
   │      │      │      │      │
   Scan   Capture Outline Uncover Tabulate
@@ -175,7 +175,7 @@ The skill follows a 5-step research process:
 
 The generated PPTX follows this layout:
 
-```
+```text
 +------------------------------------------------------------------+
 |  [COMPANY NAME]  Company Intelligence Brief          [Date]       |
 |  [Tagline - 1 line]                                              |
