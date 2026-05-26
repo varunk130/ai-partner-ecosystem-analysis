@@ -214,8 +214,8 @@ Uses Microsoft Fluent design: navy header, Segoe UI typography, blue/teal accent
 | Requirement | Details |
 |-------------|---------|
 | AI Assistant | Claude Code or GitHub Copilot |
-| Python | 3.9+ (only for PowerPoint generation) |
-| python-pptx | `pip install python-pptx` (only for PPTX output) |
+| Python 3.9+ | Only required when generating the PPTX summary |
+| python-pptx | `pip install python-pptx` (required alongside Python for PPTX output) |
 
 ---
 
