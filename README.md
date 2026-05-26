@@ -11,7 +11,7 @@
 
 **Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
 
-Give your AI assistant the ability to deep-research any ISV, partner, or competitor by scanning their public website and producing a structured customer list, company profile, and an executive-ready 1-slide PowerPoint summary.
+Give your AI assistant the ability to research any ISV, partner, or competitor in depth by scanning their public website and producing a structured customer list, company profile, and an executive-ready 1-slide PowerPoint summary.
 
 </div>
 
