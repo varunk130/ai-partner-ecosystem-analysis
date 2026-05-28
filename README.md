@@ -219,7 +219,7 @@ Uses Microsoft Fluent design: navy header, Segoe UI typography, blue/teal accent
 
 ---
 
-## Related work
+## Related Work
 
 Part of a portfolio of AI agent and skill libraries for product, GTM, and decision-making teams.
 
