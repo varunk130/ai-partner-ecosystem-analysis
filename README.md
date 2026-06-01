@@ -76,23 +76,7 @@ AI Partner Ecosystem Analysis is a Claude Code / GitHub Copilot skill that turns
 
 ## How to Use
 
-### Step 1: Install the Skill
-
-**Claude Code:**
-```bash
-git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
-cp -r ai-partner-ecosystem-analysis/skills/company-intel ~/.claude/skills/
-```
-
-**GitHub Copilot:**
-```bash
-git clone https://github.com/varunk130/ai-partner-ecosystem-analysis.git
-cp -r ai-partner-ecosystem-analysis/skills/company-intel .github/skills/
-```
-
-### Step 2: Run It
-
-Open your AI assistant and provide a company name or URL. That's it. The skill handles everything else.
+Once the skill is installed (see [Quickstart](#-quickstart)), open your AI assistant and provide a company name or URL. That's it — the skill handles everything else.
 
 **Example prompts:**
 
@@ -104,7 +88,7 @@ Open your AI assistant and provide a company name or URL. That's it. The skill h
 | `Who are Company X's customers?` | Extracts and categorizes all featured customers |
 | `Build me an intel slide on [partner name]` | Full research + 1-slide PPTX output |
 
-### Step 3: Get Your Output
+### What You Get
 
 The skill produces two deliverables:
 
