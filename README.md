@@ -203,7 +203,7 @@ Uses Microsoft Fluent design: navy header, Segoe UI typography, blue/teal accent
 ## Tips for Best Results
 
 - **Be specific:** "Run company-intel on https://www.clay.com" works better than "research clay"
-- **Combine with other skills:** Pair with [`battle-scanner`](https://github.com/varunk130/ai-gtm-skill-library/tree/main/gtm-skills/battle-scanner) for competitive analysis or [`gtm-exec-plan`](https://github.com/varunk130/ai-gtm-skill-library/tree/main/gtm-skills/gtm-exec-plan) for full GTM planning (both live in the [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) repo)
+- **Combine with other skills:** Pair with [`battle-scanner`](https://github.com/varunk130/ai-gtm-skill-library/tree/master/gtm-skills/battle-scanner) for competitive analysis or [`gtm-exec-plan`](https://github.com/varunk130/ai-gtm-skill-library/tree/master/gtm-skills/gtm-exec-plan) for full GTM planning (both live in the [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) repo)
 - **Run on multiple companies:** Research 3-5 competitors in sequence to build a comparative landscape
 - **Check multiple pages:** If the first scan misses customers, ask the skill to also check /partners or /integrations pages
 
