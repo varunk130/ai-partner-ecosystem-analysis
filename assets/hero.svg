@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="AI Partner Ecosystem Analysis. AI-powered company and partner research, output as a 1-slide PPTX.">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1100"/>
+      <stop offset="50%" style="stop-color:#3d1d00"/>
+      <stop offset="100%" style="stop-color:#2a1100"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffb259"/>
+      <stop offset="100%" style="stop-color:#ea8600"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffb259"/>
+      <stop offset="100%" style="stop-color:#ea8600"/>
+    </linearGradient>
+    <linearGradient id="output" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#34d399"/>
+      <stop offset="100%" style="stop-color:#0d652d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)" rx="12"/>
+
+  <ellipse cx="200" cy="190" rx="260" ry="160" fill="#ea8600" opacity="0.12"/>
+  <ellipse cx="1000" cy="190" rx="240" ry="140" fill="#10b981" opacity="0.10"/>
+
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="76" x2="1200" y2="76"/>
+    <line x1="0" y1="190" x2="1200" y2="190"/>
+    <line x1="0" y1="304" x2="1200" y2="304"/>
+  </g>
+
+  <rect x="80" y="42" width="80" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Glyph: magnifying glass / search -->
+  <g transform="translate(80, 62)">
+    <rect width="56" height="56" rx="12" fill="#ea8600" opacity="0.18"/>
+    <circle cx="24" cy="24" r="11" fill="none" stroke="#ffb259" stroke-width="3"/>
+    <line x1="33" y1="33" x2="44" y2="44" stroke="#ffb259" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="156" y="100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="-1">AI Partner Ecosystem Analysis</text>
+
+  <text x="156" y="135" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#fce4c5">Scan any company's site → extract customers, metrics, positioning → 1-slide exec PPTX.</text>
+
+  <rect x="80" y="170" width="1040" height="1" fill="#ffffff" opacity="0.12"/>
+
+  <!-- SCOUT chain -->
+  <g transform="translate(80, 210)" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="0.6" text-anchor="middle">
+    <g transform="translate(60, 0)">
+      <rect x="-55" y="0" width="110" height="64" rx="10" fill="url(#step)"/>
+      <text y="22" fill="#ffffff" font-size="18" font-weight="800">S</text>
+      <text y="40" fill="#ffffff" font-size="11">SCAN</text>
+      <text y="56" fill="#fff3e0" font-weight="500" font-size="10">Fetch pages</text>
+    </g>
+    <text x="138" y="38" font-size="22" fill="#ffb259" text-anchor="middle">›</text>
+    <g transform="translate(216, 0)">
+      <rect x="-55" y="0" width="110" height="64" rx="10" fill="url(#step)"/>
+      <text y="22" fill="#ffffff" font-size="18" font-weight="800">C</text>
+      <text y="40" fill="#ffffff" font-size="11">CAPTURE</text>
+      <text y="56" fill="#fff3e0" font-weight="500" font-size="10">Extract customers</text>
+    </g>
+    <text x="294" y="38" font-size="22" fill="#ffb259" text-anchor="middle">›</text>
+    <g transform="translate(372, 0)">
+      <rect x="-55" y="0" width="110" height="64" rx="10" fill="url(#step)"/>
+      <text y="22" fill="#ffffff" font-size="18" font-weight="800">O</text>
+      <text y="40" fill="#ffffff" font-size="11">OUTLINE</text>
+      <text y="56" fill="#fff3e0" font-weight="500" font-size="10">Build profile</text>
+    </g>
+    <text x="450" y="38" font-size="22" fill="#ffb259" text-anchor="middle">›</text>
+    <g transform="translate(528, 0)">
+      <rect x="-55" y="0" width="110" height="64" rx="10" fill="url(#step)"/>
+      <text y="22" fill="#ffffff" font-size="18" font-weight="800">U</text>
+      <text y="40" fill="#ffffff" font-size="11">UNCOVER</text>
+      <text y="56" fill="#fff3e0" font-weight="500" font-size="10">Find patterns</text>
+    </g>
+    <text x="606" y="38" font-size="22" fill="#ffb259" text-anchor="middle">›</text>
+    <g transform="translate(684, 0)">
+      <rect x="-55" y="0" width="110" height="64" rx="10" fill="url(#step)"/>
+      <text y="22" fill="#ffffff" font-size="18" font-weight="800">T</text>
+      <text y="40" fill="#ffffff" font-size="11">TABULATE</text>
+      <text y="56" fill="#fff3e0" font-weight="500" font-size="10">Generate slide</text>
+    </g>
+    <text x="762" y="38" font-size="22" fill="#34d399" text-anchor="middle">→</text>
+    <g transform="translate(880, 0)">
+      <rect x="-90" y="0" width="180" height="64" rx="10" fill="url(#output)"/>
+      <text y="28" fill="#ffffff" font-size="14" font-weight="700">📑 1-slide PPTX</text>
+      <text y="50" fill="#e6f4ea" font-weight="500" font-size="11">exec-ready briefing</text>
+    </g>
+  </g>
+
+  <!-- Bottom tag line -->
+  <text x="600" y="320" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#fce4c5" opacity="0.85">Customer lists · key metrics · testimonials · positioning · segmentation — in one prompt.</text>
+</svg>
