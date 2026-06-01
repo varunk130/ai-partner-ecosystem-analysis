@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero.svg" alt="AI Partner Ecosystem Analysis — Scan any company's site, extract customers, metrics, positioning, output 1-slide PPTX" width="100%"/>
+
 # 🔍 AI Partner Ecosystem Analysis
 
 ### AI-Powered Company & Partner Research for Claude Code & GitHub Copilot
