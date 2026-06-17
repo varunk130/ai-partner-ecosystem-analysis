@@ -7,6 +7,9 @@ and this project adheres loosely to [Semantic Versioning](https://semver.org/spe
 
 ## [Unreleased]
 
+### Changed
+- Documentation: updated the ai-customer-discovery-skills status in Related Work (5 of 12 skills shipped).
+
 ## [0.1.0] - 2026-06-15
 
 ### Added
