@@ -7,7 +7,7 @@ This project welcomes contributors of all backgrounds and skill levels. The goal
 - Be respectful in conversations, reviews, and issues.
 - Assume good intent and clarify before reacting.
 - Focus feedback on the work, not the person.
-- Be patient with newcomers - everyone was new once.
+- Be patient with newcomers — everyone was new once.
 - Credit prior work, ideas, and collaborators.
 
 ## Unacceptable behavior
@@ -30,4 +30,4 @@ Report concerns privately by contacting the maintainer through the contact infor
 
 ## Scope
 
-This Code of Conduct applies in all project spaces - the repository, issues, pull requests, discussions - and when an individual is representing the project in public.
+This Code of Conduct applies in all project spaces — the repository, issues, pull requests, discussions — and when an individual is representing the project in public.

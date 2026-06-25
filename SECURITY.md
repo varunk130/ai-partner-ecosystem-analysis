@@ -30,7 +30,7 @@ Only the latest commit on `main` is actively supported. Older releases are not p
 
 ## Out of scope
 
-- Vulnerabilities in third-party dependencies - please report those upstream first; we will track the impact here once confirmed.
+- Vulnerabilities in third-party dependencies — please report those upstream first; we will track the impact here once confirmed.
 - Issues requiring physical access to a developer's machine.
 - Social engineering attacks.
 - Findings from automated scanners without a working proof-of-concept.
