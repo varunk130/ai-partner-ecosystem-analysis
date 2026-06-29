@@ -8,6 +8,8 @@ and this project adheres loosely to [Semantic Versioning](https://semver.org/spe
 ## [Unreleased]
 
 ### Changed
+- Documentation: corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
+- Documentation: added the three Next.js multi-agent demos (Compound, Beacon, Atlas) to the Related Work section.
 - Documentation: updated the ai-customer-discovery-skills status in Related Work (5 of 12 skills shipped).
 
 ## [0.1.0] - 2026-06-15
