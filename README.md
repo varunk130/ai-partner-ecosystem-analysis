@@ -19,6 +19,23 @@ Give your AI assistant the ability to research any ISV, partner, or competitor i
 
 ---
 
+## Table of Contents
+
+- [How It Works](#-how-it-works)
+- [Quickstart](#-quickstart)
+- [What It Does](#what-it-does)
+- [How to Use](#how-to-use)
+- [SCOUT Framework](#scout-framework)
+- [Use Cases](#use-cases)
+- [What the Skill Extracts](#what-the-skill-extracts)
+- [Slide Output Format](#slide-output-format)
+- [Tips for Best Results](#tips-for-best-results)
+- [Requirements](#requirements)
+- [Related Work](#related-work)
+- [License](#license)
+
+---
+
 ## 🔭 How It Works
 
 ```mermaid
