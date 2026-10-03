@@ -271,6 +271,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **Built by Varun Kulkarni**
 
-*Powered by Claude Code & GitHub Copilot*
+*Can be used in Claude Code, OpenAI Codex, or GitHub Copilot*
 
 </div>
