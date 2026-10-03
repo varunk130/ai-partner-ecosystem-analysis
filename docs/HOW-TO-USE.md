@@ -122,7 +122,7 @@ The skill only extracts what is explicitly featured. If a customer is not shown 
 
 ### Pre-Meeting Research
 ```
-I have a call with Tavily tomorrow. Run company-intel on https://tavily.com 
+I have a call with Tavily tomorrow. Run company-intel on https://tavily.com
 so I know who their customers are and how they position themselves.
 ```
 
@@ -136,20 +136,20 @@ Run company-intel on each of these competitors and build intel slides:
 
 ### Partner Evaluation
 ```
-We are considering a partnership with Company X. 
-Run company-intel on their website to see their customer base 
+We are considering a partnership with Company X.
+Run company-intel on their website to see their customer base
 and whether there is overlap with ours.
 ```
 
 ### Portfolio Review
 ```
-Run company-intel on each of our top 5 ISV partners 
+Run company-intel on each of our top 5 ISV partners
 and build a 2-slide deck for each.
 ```
 
 ### Account Planning
 ```
-Research this prospect's website and tell me what metrics they claim, 
+Research this prospect's website and tell me what metrics they claim,
 who their customers are, and how they describe their product.
 ```
 
