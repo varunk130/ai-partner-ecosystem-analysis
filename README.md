@@ -84,10 +84,10 @@ For **GitHub Copilot**: copy `skills/company-intel` into `.github/skills/` in yo
 
 AI Partner Ecosystem Analysis is a Claude Code / GitHub Copilot skill that turns a company name or URL into actionable intelligence. Point it at any company's website and it will:
 
-- **Find their customers** by scanning logo bars, case studies, and testimonials
+- **Find its customers** by scanning logo bars, case studies, and testimonials
 - **Extract key metrics** like user counts, revenue claims, and growth stats
 - **Capture testimonial quotes** with the person's name, title, and company
-- **Summarize their positioning** including tagline, value prop, and differentiators
+- **Summarize its positioning** including tagline, value prop, and differentiators
 - **Analyze customer patterns** by size, industry, and segment
 - **Generate a polished 1-slide PPTX** ready for exec review or internal briefing
 
@@ -103,7 +103,7 @@ Once the skill is installed (see [Quickstart](#-quickstart)), open your AI assis
 |-------------|-------------|
 | `Run company-intel on Tavily` | Fetches tavily.com, extracts customers, builds a slide |
 | `Research https://www.clay.com` | Scans Clay's site for customer logos, case studies, metrics |
-| `Company intel on [any ISV name]` | Searches for the company, finds their site, runs the full [SCOUT framework](#scout-framework) |
+| `Company intel on [any ISV name]` | Searches for the company, finds its site, runs the full [SCOUT framework](#scout-framework) |
 | `Who are Company X's customers?` | Extracts and categorizes all featured customers |
 | `Build me an intel slide on [partner name]` | Full research + 1-slide PPTX output |
 
